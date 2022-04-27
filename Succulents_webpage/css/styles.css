@@ -1,0 +1,337 @@
+body {
+	background-color: #FFF;
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+.container {
+	
+	margin:0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.5;
+}
+.hidden{
+	display: none;
+}
+header {
+	background-color: #435831;
+
+}
+header .logo {
+	margin: 15px;
+	width: 80px;
+}
+h1{
+	margin: 37px 500px 37px 18px;
+	font-size: 24px;
+	font-family: "Source Sans Pro", sans-serif;
+  	color: rgb(255, 255, 255);
+  	line-height: 1.2;
+	
+}
+header {
+	display: flex;
+}
+
+nav ul {
+	display: flex;
+}
+nav ul li {
+	font-size: 30px;
+    font-family: "Source Sans Pro", sans-serif;;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+	margin:37px 40px 37px 0;
+}
+header nav a:link {
+	text-decoration: none;
+	color: #ffffff;
+}
+header nav a:hover {
+	border-bottom: 2px solid #ffffff;
+	text-decoration: none;
+}
+
+.call-to-action-banner{
+	background-image: url(../img/grapes-background.jpeg);
+	background-repeat: no-repeat;
+	display:flex;
+	flex-direction: column;
+	height:600px;
+}
+.call-to-action-banner h2{
+	font-size: 60px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+	margin-top: 100px;
+	margin-left: 50px;
+	width: 470px;
+	
+}
+.call-to-action-banner p{
+	font-size: 30px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+	margin-left: 50px;
+	margin-top: 40px;
+	width: 410px;
+}
+.call-to-action-banner a{
+	font-size: 36px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+	margin-top: 50px;
+	margin-left: 80px;
+	width: 190px;
+	background-color: #435831;
+	padding: 20px 30px;
+	margin-top:36px;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 15px;
+}
+/*shop now button
+250px width - 190px width of the text = 60px/2 =30px each side margin */
+.call-to-action-banner a:hover {
+	border-bottom: 2px solid #ffffff;
+	
+}
+.about-us-section{
+	display: flex;
+	margin-top: 100px;
+}
+.plants-assorted{
+	width: 400px;
+	height: 450px;
+}
+.about-us{
+	margin-left: 50px ;
+	width:510px;
+	/*960-400(from pic of plants)-50 from margin = 510px*/
+}
+.about-us h2{
+	font-size: 72px;
+	font-family: "Playfair Display", serif;
+	color: rgb(25, 33, 31);
+	line-height: 1.2;
+	text-align: center;
+}
+.about-us p{
+	font-size: 18px;
+	font-family: "Source Sans Pro", sans-serif;
+	color: rgb(25, 33, 31);
+	line-height: 1.2;
+	font-weight: bold;
+	text-align: left;
+	margin-top: 30px;
+}
+.about-us p:nth-child(4){
+	font-size: 14px;
+}
+.article-header{
+	background-image: url(../img/Succulents-background.jpg);
+	background-repeat: no-repeat;
+	margin-top: 100px;
+	height: 200px;
+		
+}
+.article-header h2{
+	display: inline-block;
+	font-size: 48px;
+    font-family: "Playfair Display", serif;
+    color: rgb(25, 33, 31);
+    line-height: 1.2;
+    text-align: center;
+	padding: 20px 15px;
+	background-color: #ffffff;
+	margin: 75px 0 0 210px;
+	width: 525px;
+}
+.articles{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 45px;
+
+}
+.blue-succulents{
+	width:480px ;
+	
+
+}
+.watering-article{
+	width:480px;
+	height: 500px;
+	background-color: #0e1c1c;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.watering-article h2{
+	
+		font-size: 36px;
+		font-family: "Playfair Display", serif;
+		color: rgb(255, 255, 255);
+		line-height: 1.2;
+		text-align: left;
+		padding:40px 0 0 35px;
+
+}
+.watering-article p{
+	
+		font-size: 16px;
+		font-family: "Source Sans Pro", sans-serif;
+		color: rgb(255, 255, 255);
+		line-height: 1.2;
+		font-weight: 500;
+		margin: 25px 0 0 40px;
+}
+.watering-article a{
+	
+		font-size: 24px;
+		font-family: "Source Sans Pro", sans-serif;
+		color: rgb(255, 255, 255);
+		font-weight: 500;
+		line-height: 1.2;	
+		margin:80px 0 0 40px;  
+}
+.watering-article a:link {
+	text-decoration: none;
+	color: #ffffff;
+}
+.watering-article a:hover {
+	border-bottom: 2px solid #ffffff;
+	text-decoration: none;
+}
+.container-article{
+	width:480px;
+	height: 500px;
+	background-color: #0e1c1c;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.container-article h2{
+	
+		font-size: 36px;
+		font-family: "Playfair Display", serif;
+		color: rgb(255, 255, 255);
+		line-height: 1.2;
+		text-align: left;
+		padding:40px 0 0 35px;
+
+}
+.container-article p{
+	
+		font-size: 16px;
+		font-family: "Source Sans Pro", sans-serif;
+		color: rgb(255, 255, 255);
+		line-height: 1.2;
+		font-weight: 500;
+		margin: 25px 0 0 40px;
+}
+.container-article a{
+	
+		font-size: 24px;
+		font-family: "Source Sans Pro", sans-serif;
+		color: rgb(255, 255, 255);
+		font-weight: 500;
+		line-height: 1.2;	
+		margin:40px 0 0 40px;  
+}
+.container-article a:link {
+	text-decoration: none;
+	color: #ffffff;
+}
+.container-article a:hover {
+	border-bottom: 2px solid #ffffff;
+	text-decoration: none;
+}
+.succulents-in-detail{
+	width: 480px;
+}
+hr{
+		margin-top: 100px;
+		width: 880px;
+		align-self: center;
+		background-color:#19211f;
+	
+}
+.Company-Logo-Dark{
+	margin: 60px 0 0 440px  ;
+}
+/*logo width = 80px...960-80=880px.../2=440px margin left*/
+.footer-logo-text{
+		text-align: center;
+		font-weight: 500;
+		font-size: 24px;
+		font-family: "Source Sans Pro", sans-serif;
+		color: rgb(25, 33, 31);
+		line-height: 1.2;
+}
+.footer-links{
+	display: flex;
+	margin-top: 70px;
+}
+.shop-links{
+	width: 320px;
+	
+	/*960/3 for each section*/
+}
+.about-links{
+	width: 320px;
+	/*960/3 for each section*/
+}
+.contact-info{
+	width: 320px;
+}
+.footer-links h2{
+		font-size: 24px;
+		font-weight: 700;
+		font-family: "Source Sans Pro",sans-serif;
+		color: rgb(25, 33, 31);
+		line-height: 1.2;
+		text-align: center;
+	
+}
+.footer-links li{
+		font-size: 24px;
+		font-family: "Source Sans Pro",sans-serif;
+		font-weight: 500;
+		color: rgb(25, 33, 31);
+		line-height: 1.2;
+		text-align: center;  
+}
+.footer-links  p{
+	font-size: 24px;
+	font-family: "Source Sans Pro",sans-serif;
+	color: rgb(25, 33, 31);
+	font-weight: 500;
+	line-height: 1.2;
+	text-align: center;  
+}
+.footer-links a:link {
+	text-decoration: none;
+	color: #ffffff;
+}
+.footer-links a:hover {
+	border-bottom: 2px solid #19211f;
+	text-decoration: none;
+}
+footer h2{
+	margin-bottom: 30px;
+}
+.footer-disclaimer{
+
+		font-size: 16px;
+		font-family: "Source Sans Pro", sans-serif;
+		color: rgb(25, 33, 31);
+		line-height: 1.2;
+		text-align: center;  
+		margin-top:100px ;
+		margin-left: 60px;
+		width: 830px;
+}
